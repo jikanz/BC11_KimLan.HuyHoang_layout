@@ -16,119 +16,1589 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />  
     <link rel="stylesheet" href="css/demo.css" />
   </head>
   <body>
     <!-- HEADER START -->
-    <header>
-      <nav
-        class="
-          navbar navbar-expand-lg navbar-light
-          bg-light
-          position-fixed
-          w-100
-        "
-      >
-        <a class="navbar-brand" href="https://www.ford.com/">
-          <div class="brand-logo">
-            <span></span>
-          </div>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+     <nav id="header-menu" class="navbar navbar-expand-lg navbar-light ">
+           <nav class="navbar_top navbar-expand-lg navbar-light bg-light">
+        <div class="navbar_top_left float-left d-flex">
           <ul class="navbar-nav">
-            <li class="nav-item active">
+            <li class="nav-item mr-4">
               <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
+                >MUSTANGS <i class="fas fa-horse" ></i
+              ></a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="#"
+                >BRONCOS <i class="fab fa-linux"></i
+              ></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown link
-              </a>
-              <div
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+              <a class="nav-link" href="#">CERTIFIED USED</a>
             </li>
           </ul>
+           <div class="navbar_top_right">
+          <a href=""
+            ><i class="fas fa-map-marker-alt"></i> Dealership Locations
+          </a>
         </div>
-        <div class="collapse navbar-collapse" id="navbarNavDropUp">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown link
-              </a>
-              <div
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
         </div>
       </nav>
-    </header>
+      <div class="navbar_bot d-flex">
+      <a class="navbar-brand float-left" href="https://www.ford.com/"
+        ><img src="./img/ford-icon.png" alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#menu-list"
+        aria-controls="hmenu-list"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse float-left" id="hmenu-list">
+        <ul class="navbar-nav mr-auto nav-cars">
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#SUVSCROSSOVERS"
+              >SUVS & CROSSOVERS</a
+            >
+            <div
+              id="SUVSCROSSOVERS"
+              class="collapse hnav-car-contain"
+              data-parent="#hmenu-list"
+            >
+            <div id="scroll">
+              <div class="hnav-car-list">
+                <div class="hnav-car-items">
+                  <img
+                    src="./img/21_frd_eco_tnm_rcrd_rpro_280x121_1.webp"
+                    alt=""
+                  />
+                  <h4>2021 ECOSPORT</h4>
+                  <p class="car-price">Starting at $19,995</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img src="./img/21_esp_nav_280x121.webp" alt="" />
+                  <h4>2021 ESCAPE</h4>
+                  <p class="car-price">Starting at $24,885</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img
+                    src="./img/Global_Nav_280x121_21_Bronco_Sport.jpg"
+                    alt=""
+                  />
+                  <h4>2021 BRONCO SPORT</h4>
+                  <p class="car-price">Starting at $26,820</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/Global_Nav_280x121_21_Bronco.webp" alt="" />
+                  <h4>2021 BRONCO</h4>
+                  <p class="car-price">Starting at $28,500</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/Global_Nav_280x121_20_Edge_ST.webp" alt="" />
+                  <h4>2021 EDGE</h4>
+                  <p class="car-price">Starting at $32.250</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img
+                    src="./img/21_frd_epr_xlt_atlb_rpro_explorer_suvs.webp"
+                    alt=""
+                  />
+                  <h4>2021 EXPLORER</h4>
+                  <p class="car-price">Starting at $32,675</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/tải xuống.svg" />
+                    <p>All Electric</p>
+                  </div>
+                  <img src="./img/Global_Nav_280x121_20_Mache.jpg" alt="" />
+                  <h4>2021 MUSTANG MACH-E</h4>
+                  <p class="car-price">Starting at $42,895</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img
+                    src="./img/21_frd_epd_plt_brvt_rpro_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 EXPEDITION</h4>
+                  <p class="car-price">Starting at $49,995</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+              </div>
+              <div class="Explore">
+                <div class="Explore-item">Explore all Vehicles</div>
+                <div class="Explore-item">See Special Offers</div>
+                <div class="Explore-item">Certified Used</div>
+                <div class="Explore-item">Explore Fuel Choices</div>
+              </div>
+              </div>
+              </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#TRUCKSVANS"
+              >TRUCKS & VANS</a
+            >
+            <div
+              id="TRUCKSVANS"
+              class="collapse hnav-car-contain"
+              data-parent="#hmenu-list"
+            >
+            <div id="scroll">
+              <div class="hnav-car-list">
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img src="./img/xe1.webp" alt="" />
+                  <h4>2022 Maverick</h4>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Reserve Now</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img
+                    src="./img/21_frd_rgr_lar_sprt_scc_4x4_vctb_rpro_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 RANGER</h4>
+                  <p class="car-price">Starting at $24,820</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img
+                    src="./img/2021_frd_tcpw_tnm_lwb_sols_nav_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 TRANSIT CONNECT</h4>
+                  <p class="car-price">Starting at $27,400</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img
+                    src="./img/21_frd_f150_scrw_5_5ft_xlt_spt_apr_pkg_crgr_rpro_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 F-150</h4>
+                  <p class="car-price">Starting at $28,940</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img
+                    src="./img/21_frd_fsd_f450_lar_cc8_drw_4x2_stgr_rpro_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 SUPER DUTY</h4>
+                  <p class="car-price">Starting at $34,230</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img
+                    src="./img/21_frd_trn_pvan_xl_mr_lwb_rcrd_280x121.png"
+                    alt=""
+                  />
+                  <h4>2021 TRANSIT</h4>
+                  <p class="car-price">Starting at $41,695</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/tải xuống.svg" />
+                    <p>All Electric</p>
+                  </div>
+                  <img
+                    src="./img/22_frd_p702bev_plt_scc5_icbs_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2022 F-150 LIGHTNING</h4>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Reserve Now</a
+                  >
+                </div>
+              </div>
+              <div class="Explore">
+                <div class="Explore-item">Explore all Vehicles</div>
+                <div class="Explore-item">See Special Offers</div>
+                <div class="Explore-item">Certified Used</div>
+                <div class="Explore-item">Explore Fuel Choices</div>
+              </div>
+            </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ELECTRIFIED"
+              >ELECTRIFIED</a
+            >
+            <div
+              id="ELECTRIFIED"
+              class="collapse hnav-car-contain"
+              data-parent="#hmenu-list"
+            >
+            <div id="scroll">
+              <div class="hnav-car-list">
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img src="./img/xe1.webp" alt="" />
+                  <h4>2022 Maverick</h4>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Reserve Now</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img
+                    src="./img/Global_Nav_280x121_20_Fusion_HV.webp"
+                    alt=""
+                  />
+                  <h4>2020 FUSION HYBRID</h4>
+                  <p class="car-price">Starting at $28,000</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img
+                    src="./img/21_frd_rgr_lar_sprt_scc_4x4_vctb_rpro_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 RANGER</h4>
+                  <p class="car-price">Starting at $24,820</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo2.svg" />
+                    <p>Plug-In Hybrid</p>
+                  </div>
+                  <img
+                    src="./img/2021_frd_tcpw_tnm_lwb_sols_nav_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 TRANSIT CONNECT</h4>
+                  <p class="car-price">Starting at $27,400</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo2.svg" />
+                    <p>Plug-In Hybrid</p>
+                  </div>
+                  <img
+                    src="./img/Global_Nav_280x121_20_Fusion_PHV.webp"
+                    alt=""
+                  />
+                  <h4>2021 FUSION PLUG-IN HYBRID</h4>
+                  <p class="car-price">Starting at $35,000</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/tải xuống.svg" />
+                    <p>All Electric</p>
+                  </div>
+                  <img src="./img/Global_Nav_280x121_20_Mache.jpg" alt="" />
+                  <h4>2021 MUSTANG MACH-E</h4>
+                  <p class="car-price">Starting at $42,895</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img
+                    src="./img/21_frd_epr_ltd_rprd_rpro_electrified.webp"
+                    alt=""
+                  />
+                  <h4>2021 EXPLORER LIMITED</h4>
+                  <p class="car-price">Starting at $45,005</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img
+                    src="./img/21_frd_f150_scrw_5_5ft_xlt_spt_apr_pkg_crgr_rpro_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 F-150</h4>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/tải xuống.svg" />
+                    <p>All Electric</p>
+                  </div>
+                  <img
+                    src="./img/22_frd_p702bev_plt_scc5_icbs_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2022 F-150 LIGHTNING</h4>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Reserve Now</a
+                  >
+                </div>
+              </div>
+              <div class="Explore">
+                <div class="Explore-item">Explore all Vehicles</div>
+                <div class="Explore-item">See Special Offers</div>
+                <div class="Explore-item">Certified Used</div>
+                <div class="Explore-item">Explore Fuel Choices</div>
+              </div>
+            </div>       
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#CARS">CARS</a>
+            <div
+              id="CARS"
+              class="collapse hnav-car-contain"
+              data-parent="#hmenu-list"
+            >
+            <div id="overflow">
+              <div class="hnav-car-list_1">
+                <div class="hnav-car-items">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm_1">
+                        <img src="./img/logo1.svg" alt="" />
+                      </div>
+                      <div class="col-sm_2">
+                        <img src="./img/logo2.svg" alt="" />
+                      </div>
+                      <div class="col-sm">
+                        <p>Hybrid & PHEV</p>
+                        <span>Available</span>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    src="./img/Global_Nav_280x121_20_Fusion_HV.webp"
+                    alt=""
+                  />
+                  <h4>2020 FUSION</h4>
+                  <p class="car-price">Starting at $23,170</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/2021_frd_mst_gtp_nav_280x121.png" alt="" />
+                  <h4>2020 MUTANG</h4>
+                  <p class="car-price">Starting at $27,155</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+              </div>
+              <div class="Explore">
+                <div class="Explore-item">Explore all Vehicles</div>
+                <div class="Explore-item">See Special Offers</div>
+                <div class="Explore-item">Certified Used</div>
+                <div class="Explore-item">Explore Fuel Choices</div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ALLVEHICLES"
+              >ALL VEHICLES</a
+            >
+            <div
+              id="ALLVEHICLES"
+              class="collapse hnav-car-contain"
+              data-parent="#hmenu-list"
+            >
+              <ul id="list">
+                <li class="item"><button>COMMERCIAL VEHICLES</button></li>
+                <li class="item"><button>PERFORMANCE VEHICLES</button></li>
+                <li class="item"><button>FUTURE VEHICLES</button></li>
+                <li class="item"><button>SUVS & CROSSOVERS</button></li>
+                <li class="item"><button>TRUCKS & VANS</button></li>
+                <li class="item"><button>ELECTRIFIED</button></li>
+                <li class="item"><button>CARS</button></li>
+              </ul>
+              <div id="overflow_1">
+              <h3 id="head">COMMERCIAL VEHICLES</h3>
+              <div class="hnav-car-list">
+                <div class="hnav-car-items">
+                  <img src="./img/xe2.webp" alt="" />
+                  <h4>2021 Transit Connect</h4>
+                  <p class="car-price">Starting at $28,000</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/xe3.webp" alt="" />
+                  <h4>2021 Transit CC-CA</h4>
+                  <p class="car-price">Starting at $28,000</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/xe4.webp" alt="" />
+                  <h4>2022 E-Series Cutaway</h4>
+                  <p class="car-price">Starting at $24,820</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/xe5.webp" alt="" />
+                  <h4>2021 Super Duty</h4>
+                  <p class="car-price">Starting at $27,400</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/xe6.webp" alt="" />
+                  <h4>2021 Transit</h4>
+                  <p class="car-price">Starting at $35,000</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/xe7.webp" alt="" />
+                  <h4>2021 Chassis Cab</h4>
+                  <p class="car-price">Starting at $42,895</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/xe8.webp" alt="" />
+                  <h4>2022 F-650 F-750</h4>
+                  <p class="car-price">Starting at $45,005</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/xe9.webp" alt="" />
+                  <h4>2021 Stripped Chassis</h4>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/xe9.webp" alt="" />
+                  <h4>2022 E-Series Stripped Chassis</h4>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Search Inventory</a
+                  >
+                </div>
+              </div>
+              <div class="Explore_1">
+                <div class="Explore-item_1">Explore all Vehicles</div>
+                <div class="Explore-item_1">Explore Fuel Choices</div>
+              </div>
+              <h3 id="head">PERFORMANCE VEHICLES</h3>
+              <div class="hnav-car-list">
+                <div class="hnav-car-items">
+                  <img src="./img/Global_Nav_280x121_20_Mache.jpg" alt="" />
+                  <h4>2021 Explorer ST</h4>
+                  <p class="car-price">Starting at $28,000</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/Global_Nav_280x121_20_Edge_ST.webp" alt="" />
+                  <h4>2020 Edge ST</h4>
+                  <p class="car-price">Starting at $28,000</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/21_frd_rgr_lar_sprt_scc_4x4_vctb_rpro_280x121.webp" alt="" />
+                  <h4>2020 F-150 Raptor</h4>
+                  <p class="car-price">Starting at $24,820</p>
+                  <a
+                  href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                  class="build-price"
+                  >Build & Price</a
+                >
+                <a
+                  href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                  class="SrchInven"
+                  >Search Inventory</a
+                >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/xe10.webp" alt="" />
+                  <h4>2021 Mustang Mach 1</h4>
+                  <p class="car-price">Starting at $27,400</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/xe11.webp" alt="" />
+                  <h4>2021 Mustang Mach 1 Premium</h4>
+                  <p class="car-price">Starting at $35,000</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/xe12.webp" alt="" />
+                  <h4>2021 Mustang Shelby® GT500®</h4>
+                  <p class="car-price">Starting at $42,895</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/xe13.webp" alt="" />
+                  <h4>Ford GT</h4>
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/xe14.webp" alt="" />
+                  <h4>Ford GT Mk II</h4>
+                </div>
+            </div>
+            <div class="Explore_1">
+              <div class="Explore-item_1">Explore all Vehicles</div>
+              <div class="Explore-item_1">Explore Fuel Choices</div>
+            </div>
+            <h3 id="head">FUTURE VEHICLES</h3>
+            <div class="hnav-car-list">
+              <div class="hnav-car-items">
+                <div class="icon">
+                  <img src="./img/logo1.svg" />
+                  <p>Hybrid Available</p>
+                </div>
+                <img src="./img/xe1.webp" alt="" />
+                <h4>2022 Maverick</h4>
+                <a
+                  href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                  class="build-price"
+                  >Reserve Now</a
+                >
+              </div>
+              <div class="hnav-car-items">
+                <img src="./img/xe6.webp" alt="" />
+                <h4>2022 E-Transit</h4>
+              </div>
+              <div class="hnav-car-items">
+                <img src="./img/logo3.webp" alt="" />
+                 <h4>2021 F-150 TREMOR</h4>
+              </div>
+              <div class="hnav-car-items">
+                <img src="./img/logo4.webp" alt="" />
+                <h4>2021 F-150 RAPTOR</h4>
+              </div>
+              <div class="hnav-car-items">
+                <div class="icon">
+                  <img src="./img/tải xuống.svg" />
+                  <p>All Electric</p>
+                </div>
+                <img
+                  src="./img/22_frd_p702bev_plt_scc5_icbs_280x121.webp"
+                  alt=""
+                />
+                <h4>2022 F-150 LIGHTNING</h4>
+                <a
+                  href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                  class="build-price"
+                  >Reserve Now</a
+                >
+              </div>
+              </div>
+              <div class="Explore_1">
+                <div class="Explore-item_1">Explore all Vehicles</div>
+                <div class="Explore-item_1">Explore Fuel Choices</div>
+              </div>
+              <h3 id="head">SUVS & CROSSOVERS</h3>
+              <div class="hnav-car-list">
+                <div class="hnav-car-items">
+                  <img
+                    src="./img/21_frd_eco_tnm_rcrd_rpro_280x121_1.webp"
+                    alt=""
+                  />
+                  <h4>2021 ECOSPORT</h4>
+                  <p class="car-price">Starting at $19,995</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img src="./img/21_esp_nav_280x121.webp" alt="" />
+                  <h4>2021 ESCAPE</h4>
+                  <p class="car-price">Starting at $24,885</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img
+                    src="./img/Global_Nav_280x121_21_Bronco_Sport.jpg"
+                    alt=""
+                  />
+                  <h4>2021 BRONCO SPORT</h4>
+                  <p class="car-price">Starting at $26,820</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/Global_Nav_280x121_21_Bronco.webp" alt="" />
+                  <h4>2021 BRONCO</h4>
+                  <p class="car-price">Starting at $28,500</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/Global_Nav_280x121_20_Edge_ST.webp" alt="" />
+                  <h4>2021 EDGE</h4>
+                  <p class="car-price">Starting at $32.250</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img
+                    src="./img/21_frd_epr_xlt_atlb_rpro_explorer_suvs.webp"
+                    alt=""
+                  />
+                  <h4>2021 EXPLORER</h4>
+                  <p class="car-price">Starting at $32,675</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/tải xuống.svg" />
+                    <p>All Electric</p>
+                  </div>
+                  <img src="./img/Global_Nav_280x121_20_Mache.jpg" alt="" />
+                  <h4>2021 MUSTANG MACH-E</h4>
+                  <p class="car-price">Starting at $42,895</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img
+                    src="./img/21_frd_epd_plt_brvt_rpro_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 EXPEDITION</h4>
+                  <p class="car-price">Starting at $49,995</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+              </div>
+              <div class="Explore_1">
+                <div class="Explore-item_1">Explore all Vehicles</div>
+                <div class="Explore-item_1">Explore Fuel Choices</div>
+              </div>
+              <h3 id="head">TRUCKS & VANS</h3>
+              <div class="hnav-car-list">
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img src="./img/xe1.webp" alt="" />
+                  <h4>2022 Maverick</h4>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Reserve Now</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img
+                    src="./img/21_frd_rgr_lar_sprt_scc_4x4_vctb_rpro_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 RANGER</h4>
+                  <p class="car-price">Starting at $24,820</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img
+                    src="./img/2021_frd_tcpw_tnm_lwb_sols_nav_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 TRANSIT CONNECT</h4>
+                  <p class="car-price">Starting at $27,400</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img
+                    src="./img/21_frd_f150_scrw_5_5ft_xlt_spt_apr_pkg_crgr_rpro_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 F-150</h4>
+                  <p class="car-price">Starting at $28,940</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img
+                    src="./img/21_frd_fsd_f450_lar_cc8_drw_4x2_stgr_rpro_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 SUPER DUTY</h4>
+                  <p class="car-price">Starting at $34,230</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img
+                    src="./img/21_frd_trn_pvan_xl_mr_lwb_rcrd_280x121.png"
+                    alt=""
+                  />
+                  <h4>2021 TRANSIT</h4>
+                  <p class="car-price">Starting at $41,695</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/tải xuống.svg" />
+                    <p>All Electric</p>
+                  </div>
+                  <img
+                    src="./img/22_frd_p702bev_plt_scc5_icbs_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2022 F-150 LIGHTNING</h4>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Reserve Now</a
+                  >
+                </div>
+              </div>
+              <div class="Explore_1">
+                <div class="Explore-item_1">Explore all Vehicles</div>
+                <div class="Explore-item_1">Explore Fuel Choices</div>
+              </div>
+              <h3 id="head">ELECTRIFIED</h3>
+              <div class="hnav-car-list">
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img src="./img/xe1.webp" alt="" />
+                  <h4>2022 Maverick</h4>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Reserve Now</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img
+                    src="./img/Global_Nav_280x121_20_Fusion_HV.webp"
+                    alt=""
+                  />
+                  <h4>2020 FUSION HYBRID</h4>
+                  <p class="car-price">Starting at $28,000</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img
+                    src="./img/21_frd_rgr_lar_sprt_scc_4x4_vctb_rpro_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 RANGER</h4>
+                  <p class="car-price">Starting at $24,820</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo2.svg" />
+                    <p>Plug-In Hybrid</p>
+                  </div>
+                  <img
+                    src="./img/2021_frd_tcpw_tnm_lwb_sols_nav_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 TRANSIT CONNECT</h4>
+                  <p class="car-price">Starting at $27,400</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo2.svg" />
+                    <p>Plug-In Hybrid</p>
+                  </div>
+                  <img
+                    src="./img/Global_Nav_280x121_20_Fusion_PHV.webp"
+                    alt=""
+                  />
+                  <h4>2021 FUSION PLUG-IN HYBRID</h4>
+                  <p class="car-price">Starting at $35,000</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/tải xuống.svg" />
+                    <p>All Electric</p>
+                  </div>
+                  <img src="./img/Global_Nav_280x121_20_Mache.jpg" alt="" />
+                  <h4>2021 MUSTANG MACH-E</h4>
+                  <p class="car-price">Starting at $42,895</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img
+                    src="./img/21_frd_epr_ltd_rprd_rpro_electrified.webp"
+                    alt=""
+                  />
+                  <h4>2021 EXPLORER LIMITED</h4>
+                  <p class="car-price">Starting at $45,005</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/logo1.svg" />
+                    <p>Hybrid Available</p>
+                  </div>
+                  <img
+                    src="./img/21_frd_f150_scrw_5_5ft_xlt_spt_apr_pkg_crgr_rpro_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2021 F-150</h4>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <div class="icon">
+                    <img src="./img/tải xuống.svg" />
+                    <p>All Electric</p>
+                  </div>
+                  <img
+                    src="./img/22_frd_p702bev_plt_scc5_icbs_280x121.webp"
+                    alt=""
+                  />
+                  <h4>2022 F-150 LIGHTNING</h4>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Reserve Now</a
+                  >
+                </div>
+              </div>
+              <div class="Explore_1">
+                <div class="Explore-item_1">Explore all Vehicles</div>
+                <div class="Explore-item_1">Explore Fuel Choices</div>
+              </div>
+              <h3 id="head">CARS</h3>
+              <div class="hnav-car-list">
+                <div class="hnav-car-items">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm_1">
+                        <img src="./img/logo1.svg" alt="" />
+                      </div>
+                      <div class="col-sm_2">
+                        <img src="./img/logo2.svg" alt="" />
+                      </div>
+                      <div class="col-sm">
+                        <p>Hybrid & PHEV</p>
+                        <span>Available</span>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    src="./img/Global_Nav_280x121_20_Fusion_HV.webp"
+                    alt=""
+                  />
+                  <h4>2020 FUSION</h4>
+                  <p class="car-price">Starting at $23,170</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+                <div class="hnav-car-items">
+                  <img src="./img/2021_frd_mst_gtp_nav_280x121.png" alt="" />
+                  <h4>2020 MUTANG</h4>
+                  <p class="car-price">Starting at $27,155</p>
+                  <a
+                    href="https://shop.ford.com/build/ecosport/?gnav=header-suvs-bp#/chooseyourpath/"
+                    class="build-price"
+                    >Build & Price</a
+                  >
+                  <a
+                    href="https://shop.ford.com/inventory/ecosport/?gnav=header-suvs-si"
+                    class="SrchInven"
+                    >Search Inventory</a
+                  >
+                </div>
+              </div>
+              <div class="Explore_1">
+                <div class="Explore-item_1">Explore all Vehicles</div>
+                <div class="Explore-item_1">Explore Fuel Choices</div>
+              </div>
+              </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav nav-user">
+          <li class="nav-item">
+            <i class="far fa-user"></i>
+            <a class="nav-link" data-toggle="collapse" href="#MYACCOUNT"
+              >MY ACCOUNT</a
+            >
+            <div
+              id="MYACCOUNT"
+              class="collapse hnav-car-contain"
+              data-parent="#hmenu-list"
+            >
+              <div class="hnav-user-list d-flex flex-column">
+                <div class="menu">Sign in <i class="fas fa-angle-right"></i></div>
+                <div class="menu">My Ford Vehicle <i class="fas fa-angle-right"></i></div>
+                <div class="menu">Saved Items <i class="fas fa-angle-right"></i></div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#FINANCE"
+              >FINANCE</a
+            >
+            <div
+              id="FINANCE"
+              class="collapse hnav-car-contain"
+              data-parent="#hmenu-list"
+            >
+              <div class="hnav-user-list d-flex flex-column">
+                <div class="menu">Ford Credit Home <i class="fas fa-angle-right"></i></div>
+                <div class="menu">Pay My Bill <i class="fas fa-angle-right"></i></div>
+                <div class="menu">Apply for Credit <i class="fas fa-angle-right"></i></div>
+                <div class="menu">
+                  Ford Credit Customer Support
+                  <i class="fas fa-angle-right"></i>
+                </div>
+                <div class="menu"> Financing Options <i class="fas fa-angle-right"></i></div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#SUPPORT"
+              >SUPPORT</a
+            >
+            <div
+              id="SUPPORT"
+              class="collapse hnav-car-contain"
+              data-parent="#hmenu-list"
+            >
+            <div id="support">
+              <div class="hnav-user-list d-flex flex-column">
+                <div class="menu">Ask Ford <i class="fas fa-angle-right"></i></div>
+                <div class="menu">Owners <i class="fas fa-angle-right"></i></div>
+                <div class="menu">
+                  Vehicle Support & How-Tos <i class="fas fa-angle-right"></i>
+                </div>
+                <div class="menu">
+                  Vehicle Maintenance & Service
+                  <i class="fas fa-angle-right"></i>
+                </div>
+                <div class="menu">SYNC & Technology <i class="fas fa-angle-right"></i></div>
+                <div class="menu">Warranty <i class="fas fa-angle-right"></i></div>
+                <div class="menu">FordPass <i class="fas fa-angle-right"></i></div>
+                <div class="menu">Contact Ford <i class="fas fa-angle-right"></i></div>
+                <div>
+                  <form action="">
+                    <input
+                      type="search"
+                      class="form-control"
+                      placeholder="Search"
+                    />
+                    <i class="fas fa-search"></i>
+                  </form>
+                </div>
+              </div>
+            </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#EN">EN</a>
+            <div
+              id="EN"
+              class="collapse hnav-car-contain"
+              data-parent="#hmenu-list"
+            >
+              <div class="hnav-user-list d-flex flex-column">
+                <div class="menu">English <i class="fas fa-angle-right"></i></div>
+                <div class="menu">Spanish <i class="fas fa-angle-right"></i></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
     <!-- HEADER END -->
-
     <!-- CAROUSEL START -->
-
+   <section id="carousel">
+      <div id="movieCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carousel.jpeg" class="d-block w-100" alt="..." />
+            <div class="container carousel-caption d-none d-md-block">
+              <h1>THE ALL-NEW 2022 FORD MAVERICK</h1>
+              <p>
+                It’s here — the first ever standard full hybrid truck in America
+              </p>
+              <span>Meet Maverick</span>
+              <button class="btn btn-default btn-trailer">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- CAROUSEL END -->
 
     <!-- Somthing START -->
+    <div id="Something">
+      <div class="Something_test text-center">
+        <h2>Something for Everyone</h2>
+        <p>
+          See our full lineup of vehicles and find the one that best fits you.
+        </p>
+        <button
+          class="btn btn-outline-primary"
+          type="button"
+          style="
+            background-color: rgb(2, 118, 179);
+            color: white;
+            margin: 1rem auto 0;
+            width: 270px;
+            min-height: 50px;
+          "
+        >
+          All Vehicles
+        </button>
+      </div>
+      <div class="Something_Img">
+        <img src="img/something.jpg" class="w-100 d-block" alt="" />
+      </div>
+    </div>
     <!-- Somthing END -->
 
     <!-- Deal  START -->
+   <div id="Deal" class="Deal position-relative ">
+      <div class="Deal_img text-center">
+        <img src="img/deal.jpg" class="img_img w-100" alt="" />
+        <div
+          class="Deal_text position-absolute w-100"
+          style="top: 40px; right: 10px; bottom: 10px; left: 10px"
+        >
+          <div class="Deal_top">
+            <h1>Let Us Sweeten the Deal</h1>
+          </div>
+          <div class="Deal_bot">
+            <span>SEE ALL OFFERS</span>
+            <button class="btn btn-default btn-trailer">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Deal  END -->
 
     <!-- Airbag START -->
@@ -160,5 +1630,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    
   </body>
 </html>
