@@ -280,7 +280,7 @@
 }
 #movieCarousel .carousel-caption {
   top: 46%;
-  left: 40%;
+  left: 50%;
   transform: translate(-50%, -50%);
   text-align: left;
 }
