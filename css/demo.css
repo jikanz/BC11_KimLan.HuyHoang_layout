@@ -220,7 +220,7 @@
   overflow-y: auto;
   overflow-x: hidden;
 }
-.menu {
+.menu1 {
   color: #0276b3;
   border: 1px solid white;
   height: 38px;
@@ -440,16 +440,12 @@
   list-style: none;
   color: #555;
 }
-.accordion {
-  width: 90%;
-  margin: 0 auto;
-}
 #accordionExample {
   margin: 0;
   color: #0276b3;
   text-align: center;
   cursor: pointer;
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -654,13 +650,17 @@ footer p {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: rgb(153, 153, 153);
+  background-color: rgba(0, 0, 0, 0.6);
   cursor: pointer;
-  padding: 15px;
-  border-radius: 90%;
-  font-size: 30px;
+  border-radius: 21.5px;
+  width: 43px;
+  height: 43px;
+  color: #fff;
 }
 
 #myBtn:hover {
   background-color: rgb(153, 153, 160);
+}
+#myBtn i {
+  font-size: 25px;
 }
